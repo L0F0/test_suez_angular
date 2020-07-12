@@ -1,0 +1,97 @@
+[
+    {
+        "companie": "Neybs",
+        "companieDesc": "Neybs propose une solution à travers un application. L'application permet de faciliter les échanges entre les équipes de proximité et les locataires notamment dans la diffusion d'informations sur le quotidien des locataires, des interventions en cours ou à venir, des enquêtes et concertations.",
+        "email": "contact@neybs.com",
+        "address": "Station F, 55 Boulevard Vincent Auriol, 75013 Paris",
+        "url": "www.neybs.com",
+        "phone":"+33 1 41 71 53 67",
+        "photo": "neybs.png",
+        "photoBack": "neybsBack.png",
+        "technos": [
+            "Angular JS",
+            "Mongo DB",
+            "Node JS",
+            "TypeScript",
+            "Ionic",
+            "Docker"
+        ],
+        "experiences": [
+            {
+                "job": "Developer Front-end",
+                "startYear": "2016",
+                "endYear": "2016",
+                "startAt": "August",
+                "endAt": "December",
+                "internshipDesc": "This was my first internship, it's at this time that I really started to work web development. I was working with an indian team bases in India. First time using for me using Angular JS, so I had to learn very fast and almost in full autonomy. This has been a really good experience for me as a first internship.",
+                "long": "4,5"
+            },
+            {
+                "job": "Developer Full-stack",
+                "startYear": "2017",
+                "endYear": "2018",
+                "startAt": "September",
+                "endAt": "March",
+                "internshipDesc": "This companie called me back to work again with them. For some reasons I decided to accept, having good experience their I join them back. This time I was working in part-time, 2 days per week (Thursay-Friday). I had more work in the mobile app this time.",
+                "long": "6"
+            }
+        ]
+    },
+    {
+        "companie": "WWEEDDOO",
+        "companieDesc": "wweeddoo saisit l’opportunité offerte par le digital pour favoriser la réussite des jeunes qui lancent des projets pro ou perso en faisant converger toutes les ressources allouées aux jeunes sur une même plateforme collaborative et leur donner des coups de pouces pour aller plus loin : conseil contact matériel voire financement.",
+        "email": "contact@wweeddoo.com",
+        "address": "Maison des projets wweeddoo, 38 rue Paul Bert, 92100 Boulogne-Billancourt",
+        "url": "www.wweeddoo.com",
+        "phone":"+33 1 49 10 99 10",
+        "photo": "wweeddoo.png",
+        "photoBack": "wweeddooBack.png",
+        "technos": [
+            "React JS",
+            "Postgre SQL",
+            "Node JS",
+            "Elastic Search",
+            "Docker"
+        ],
+        "experiences": [
+            {
+                "job": "Developer Full-stack",
+                "startYear": "2019",
+                "endYear": "2019",
+                "startAt": "April",
+                "endAt": "August",
+                "internshipDesc": "This was my second intership, with a stack different from my first internship. This experience has been really rich for me because I had the opportunity by making a matching algorithm for the user's platform. I also get the opportunity to make some interview to hire a new CTO for the companie. I never made that in the past, and I learnt a lot with this experience. The companie was proud of my works and it will be a pleasure for them to work with me again.",
+                "long": "5"
+            }
+        ]
+    },
+    {
+        "companie": "ShareXP",
+        "companieDesc": "ShareXP is the name of our final project. We provide to students or people who'd like to know more about a job, the opportunity to meet our mentor. Through a physical meeting or whatever. This way is more useful for the student who can directly ask questions and know more about the daily work of the mentor.",
+        "email": "sharexp_2021@labeip.epitech.eu",
+        "address": "EPITECH, 14-16 rue Voltaire 94270 Le Kremlin-Bicêtre",
+        "url": "http://www.sharexp.eu/",
+        "phone":"No yet ",
+        "photo": "sharexp.png",
+        "photoBack": "shareXPBack.jpg",
+        "technos": [
+            "React JS",
+            "Mongo DB",
+            "Node JS",
+            "Joi",
+            "React Native",
+            "GraphQL"
+        ],
+        "experiences": [
+            {
+                "job": "Developer Back-end",
+                "startYear": "2018",
+                "endYear": "2021",
+                "startAt": "December",
+                "endAt": "Degree",
+                "internshipDesc": "This is my final degree project, which long 3 years. We started it in 2018 and if everything is going well we will finish it next year (2021). In this project I'm back-end developer, I'm working with 2 other students. We're making mutations, queries or subscritions team according their needs. And except that we continuously improving the tests or upgrading and implement new best practices.",
+                "long": "16"
+            }
+        ]
+    }
+]

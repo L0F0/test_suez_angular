@@ -1,0 +1,39 @@
+<header>
+    <nav class="navbar is-dark" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+          <a class="navbar-item" href="https://epitech.eu">
+            <img src="https://newsroom.ionis-group.com/wp-content/uploads/2018/12/epitech-logo-quadri.png" width="112" height="28">
+          </a>
+          <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+        </div>
+
+        <div id="navbarBasicExample" class="navbar-menu">
+          <div class="navbar-start">
+            <a class="navbar-item" routerLink="/">
+              Home
+            </a>
+            <div class="navbar-item has-dropdown is-hoverable">
+                <a class="navbar-link">
+                  Experiences
+                </a>
+                <div class="navbar-dropdown">
+                  <a class="navbar-item" routerLink="/experiences/WWEEDDOO" [routerLinkActive]="['active']">
+                    WWEEDDOO
+                  </a>
+                  <a class="navbar-item" routerLink="/experiences/Neybs" [routerLinkActive]="['active']">
+                    Neybs
+                  </a>
+                  <a class="navbar-item" routerLink="/experiences/ShareXP" [routerLinkActive]="['active']">
+                    Final Degree Project
+                  </a>
+                </div>
+              </div>
+            </div>
+        </div>
+    </nav>
+</header>
+<router-outlet></router-outlet>

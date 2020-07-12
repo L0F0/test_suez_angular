@@ -1,0 +1,98 @@
+
+<div>
+    <div class="hero is-success is-bold">
+        <div class="hero-body">
+            <div class="container">
+                <div class="columns" style="padding: 10%;">
+                    <div class="column is-8">
+                        <h1 class="title is-1">{{Companie.companie}}</h1>
+                        <h3 class="subtitle is-6">{{Companie.companieDesc}}</h3>
+                        <div>
+                            <p>
+                                <span class="icon has-text-black-bis">
+                                    <i class="fa fa-envelope" aria-hidden="true"></i>
+                                </span>
+                                &nbsp;&nbsp;{{Companie.email}}
+                            </p>
+                            <p>
+                                <span class="icon has-text-black-bis">
+                                    <i class="fa fa-phone" aria-hidden="true"></i>
+                                </span>
+                                &nbsp;&nbsp;{{Companie.phone}}
+                            </p>
+                            <p>
+                                <span class="icon has-text-black-bis">
+                                    <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                </span>
+                                &nbsp;&nbsp;{{Companie.address}}
+                            </p>
+                            <p>
+                                <span class="icon has-text-black-bis">
+                                    <i class="fa fa-external-link" aria-hidden="true"></i>
+                                </span>
+                                &nbsp;&nbsp;<a href="{{Companie.url}}">
+                                    {{Companie.url}}
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <img width="300" height="300"src="../../assets/{{Companie.photo}}">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="hero is-light" >
+                <div class="hero-body">
+                    <div class="container">
+                        <div class="columns">
+                            <div class="column is-full">
+                                <h3 class="title is-3 has-text-black-bis">Technical stack</h3>
+                                <div>
+                                    <span *ngFor='let techno of Companie.technos' >
+                                        <span class="tag is-success" style="margin-top: 1%;">{{techno}}</span>&nbsp;&nbsp;
+                                    </span>&nbsp;&nbsp;
+                                </div>
+                            </div>
+                        </div>
+                        <div class="columns">
+                            <div class="column is-full">
+                                <h1 class="title is-1 has-text-black-bis">Experiences</h1>
+                            </div>
+                        </div>
+                        <div class="columns">
+                            <div class="column is-full" style="margin-left: 5%;">
+                                <div *ngFor="let exp of Companie.experiences">
+                                    <div class="box">
+                                        <article class="media">
+                                          <div class="media-left">
+                                            <div class="mt-3">
+                                                <h4 class="title is-4 has-text-black-bis">
+                                                    {{exp.startYear}}<span *ngIf="exp.startYear != exp.endYear"><br/>{{exp.endYear}}</span>
+                                                </h4>
+                                            </div>
+                                          </div>
+                                          <div class="media-content">
+                                            <div class="content">
+                                              <p>
+                                                  <strong>{{exp.job}}</strong>
+                                                  <br>
+                                                  <strong>{{exp.startAt}} ⟶ {{exp.endAt}}</strong> &nbsp;<small>{{exp.long}} month(s)</small>
+                                                <br>
+                                                {{exp.internshipDesc}}
+                                              </p>
+                                            </div>
+                                          </div>
+                                        </article>
+                                    </div><br/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<router-outlet></router-outlet>

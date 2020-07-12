@@ -1,0 +1,96 @@
+<app-carrousel></app-carrousel>
+<div>
+    <div class="hero is-primary is-bold">
+        <div class="hero-body">
+            <div class="container">
+                <div class="columns" style="padding: 10%;">
+                    <div class="column is-8">
+                        <h1 class="title is-1">{{Author.fName}} {{Author.lName}}</h1>
+                        <h3 class="subtitle is-3">{{Author.job}}</h3>
+                        <div>
+                            <p>
+                                <span class="icon has-text-black-bis">
+                                    <i class="fa fa-envelope" aria-hidden="true"></i>
+                                </span>
+                                &nbsp;&nbsp;{{Author.email}}
+                            </p>
+                            <p>
+                            <span class="icon has-text-black-bis">
+                                <i class="fa fa-phone" aria-hidden="true"></i>
+                            </span>
+                            &nbsp;&nbsp;{{Author.phone}}
+                        </p>
+                        <p>
+                            <span class="icon has-text-black-bis">
+                                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                            </span>
+                            &nbsp;&nbsp;{{Author.address}}
+                        </p>
+                    </div>
+                    <div class="is-3 " style="margin-top: 2%;">
+                        <a href='{{Author.linkedinURL}}' style="text-decoration: none">
+                            <span class="icon has-text-black-bis is-large">
+                                <i class="fa fa-linkedin-square" style="font-size:38px;"></i>
+                            </span>
+                        </a>
+                        <a href='{{Author.githubURL}}' style="text-decoration: none">
+                            <span class="icon has-text-black-bis is-large">
+                                <i class="fa fa-github" style="font-size:38px;"></i>
+                            </span>
+                        </a>
+                        <a href='{{Author.gitlabURL}}' style="text-decoration: none">
+                            <span class="icon has-text-black-bis is-large">
+                                <i class="fa fa-gitlab" style="font-size:38px;"></i>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                <div class="column">
+                    <img style=" border-radius: 50%;" width="270" height="270" src="../../assets/stationF.jpeg">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="hero is-light" >
+            <div class="hero-body">
+                <div class="container">
+                    <div class="columns" style="padding: 10%;">
+                        <div class="column is-6">
+                            <img  width="600" height="600" src="../../assets/pngguru.com.png">
+                        </div>
+                        <div class="column is-1"></div>
+                        <div class="column is-6">
+                            <h3 class="subtitle is-3 has-text-grey-dark">About me</h3>
+                            <p>{{Author.aboutMe}}</p>
+                            <div style="margin-top: 3%;">
+                                <span *ngFor='let techno of Author.technos' >
+                                    <span class="tag is-primary" style="margin-top: 1%;">{{techno}}</span>&nbsp;&nbsp;
+                                </span>&nbsp;&nbsp;
+                            </div>
+                            <p style="margin-top: 3%;">
+                                But I also know that...
+                            </p>
+                            <div style="margin-top: 3%;">
+                                <span *ngFor='let knowledge of Author.knowledges' >
+                                    <span class="tag is-info" style="margin-top: 1%;">{{knowledge}}</span>&nbsp;&nbsp;
+                                </span>&nbsp;&nbsp;
+                            </div>
+                            <div style="margin-top: 5%;">
+                                <a class="button is-success is-outlined" href="../../assets/CV YP FR 2020.pdf" target="_blank"> 
+                                  <span>Download my CV</span>
+                                  <span class="icon is-small">
+                                    <i class="fa fa-download" aria-hidden="true"></i>
+                                  </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</div>
+<router-outlet></router-outlet>
