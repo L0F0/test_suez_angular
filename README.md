@@ -1,6 +1,25 @@
-# TestSuez
+# Test Suez Consulting
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.11.
+
+It's a test for Suez Consulting, which consist to create an angular app using Angular CLI, resuming my different experiences and myself.
+
+## Requirements
+
+Be sure to have on your machine `npm` and `node` installed
+
+## Installation
+
+To run the project start by launching the commande `npm install` to install the node packages.
+Then use the command `ng serve` to launch the project.
+
+You can now go to your browser and write `http://localhost:4200/` to see the project.
+
+## Contribution
+Yaniss Pheron
+
+
+# Angular README
 
 ## Development server
 
