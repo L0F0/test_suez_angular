@@ -8,6 +8,8 @@ It's a test for Suez Consulting, which consist to create an angular app using An
 
 Be sure to have on your machine `npm` and `node` installed
 
+If angular is not installed run `npm install -g @angular/cli`
+
 ## Installation
 
 To run the project start by launching the commande `npm install` to install the node packages.
